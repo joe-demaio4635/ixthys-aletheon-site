@@ -1,22 +1,8 @@
 ---
-const url = new URL(Astro.request.url);
-const host = url.hostname;
-
-const isIxthys = host.includes("ixthysanalytics.com");
-const isAletheon = host.includes("aletheon.llc");
-
-const siteTitle = isIxthys
-  ? "Ixthys Analytics"
-  : isAletheon
-  ? "Aletheon LLC"
-  : "Ixthys Analytics & Aletheon LLC";
-
-const tagline = isIxthys
-  ? "Business Intelligence • Data Analysis • Reporting"
-  : isAletheon
-  ? "Workflow Optimization • Data Quality • Process Improvement"
-  : "Data Analysis • BI Reporting • Workflow Optimization";
+const siteTitle = "Ixthys Analytics";
+const tagline = "Data Analysis • BI Reporting • Workflow Optimization";
 ---
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,37 +12,21 @@ const tagline = isIxthys
   <body>
     <header>
       <h2>{siteTitle}</h2>
+
       <nav>
-        <a href="/about">About</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/contact">Contact</a>
+        /aboutAbout</a>
+        /portfolioPortfolio</a>
+        /contactContact</a>
       </nav>
     </header>
 
     <section class="hero">
       <h1>{tagline}</h1>
 
-      {isIxthys && (
-        <p>
-          Welcome to Ixthys Analytics — specializing in BI reporting, SQL
-          analysis, and data-driven decision support.
-        </p>
-      )}
-
-      {isAletheon && (
-        <p>
-          Welcome to Aletheon LLC — focused on workflow optimization, process
-          improvement, and data quality solutions.
-        </p>
-      )}
-
-      {!isIxthys && !isAletheon && (
-        <p>
-          Welcome. I’m Joe DeMaio — a data analyst with 10+ years of experience
-          helping organizations make better decisions through clean data and
-          clear reporting.
-        </p>
-      )}
+      <p>
+        Welcome. I'm Joe DeMaio, a data analyst specializing in SQL,
+        Power BI, workflow analysis, and business intelligence reporting.
+      </p>
     </section>
   </body>
 </html>
