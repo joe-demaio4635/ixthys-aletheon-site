@@ -1,16 +1,37 @@
-// ===============================
-// Domain-specific site behavior
-// ===============================
+// Detect the current domain
+const domain = window.location.hostname.toLowerCase();
 
-const domain = window.location.hostname;
-console.log("Current domain:", domain);
+// Flags for convenience
+const isIxthys = domain.includes("ixthysanalytics.com");
+const isAletheon = domain.includes("aletheon.llc");
 
-// Add a class to <body> depending on the domain
-if (domain === "ixthysanalytics.com") {
-    document.body.classList.add("portfolio-site");
-} else if (domain === "aletheon.llc") {
-    document.body.classList.add("business-site");
+// Apply site‑specific behavior
+if (isIxthys) {
+    console.log("Portfolio site detected: Ixthys Analytics");
+
+    // Example: change header
+    document.body.classList.add("ixthys-site");
+
+    // Example: show portfolio-specific sections
+    document.getElementById("portfolio-header")?.classList.remove("hidden");
+    document.getElementById("business-header")?.classList.add("hidden");
 }
+
+else if (isAletheon) {
+    console.log("Business site detected: Aletheon LLC");
+
+    // Example: change header
+    document.body.classList.add("aletheon-site");
+
+    // Example: show business-specific sections
+    document.getElementById("business-header")?.classList.remove("hidden");
+    document.getElementById("portfolio-header")?.classList.add("hidden");
+}
+
+else {
+    console.warn("Unknown domain loaded:", domain);
+}
+
 
 (function (factory) {
     if (typeof module === "object" && typeof module.exports === "object") {
