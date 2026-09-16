@@ -57,3 +57,75 @@ footer {
 .hidden {
     display: none;
 }
+/* =====================================
+   IXTHYS ANALYTICS THEME
+   ===================================== */
+
+body.ixthys-site {
+    background: #F8F9FB;
+    color: #222222;
+}
+
+body.ixthys-site header {
+    background: #FFFFFF;
+    color: #0B3B8C;
+    border-bottom: 3px solid #E3B129;
+}
+
+body.ixthys-site nav a {
+    color: #0B3B8C;
+}
+
+body.ixthys-site footer {
+    background: #FFFFFF;
+    color: #0B3B8C;
+    border-top: 2px solid #E3B129;
+}
+
+body.ixthys-site .cta {
+    background: #0B3B8C;
+    color: white;
+}
+
+body.ixthys-site .highlights {
+    background: #EEF2F7;
+}
+
+/* =====================================
+   ALETHEON LLC THEME
+   ===================================== */
+
+body.aletheon-site {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+body.aletheon-site header {
+    background: #000000;
+    color: #D4AF37;
+    border-bottom: 3px solid #D4AF37;
+}
+
+body.aletheon-site nav a {
+    color: #D4AF37;
+}
+
+body.aletheon-site .hero {
+    background: #111111;
+    color: #FFFFFF;
+}
+
+body.aletheon-site .highlights {
+    background: #1A1A1A;
+}
+
+body.aletheon-site .cta {
+    background: #D4AF37;
+    color: #000000;
+}
+
+body.aletheon-site footer {
+    background: #000000;
+    color: #FFFFFF;
+    border-top: 2px solid #D4AF37;
+}
