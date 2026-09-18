@@ -158,3 +158,9 @@ body.aletheon-site footer {
     margin-top: 5px;
     margin-bottom: 0;
 }
+
+#site-logo {
+    height: 70px;
+    width: auto;
+}
+
