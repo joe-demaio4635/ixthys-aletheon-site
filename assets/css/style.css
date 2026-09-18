@@ -54,6 +54,15 @@ footer {
     color: #fff;
 }
 
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
 .hidden {
     display: none;
 }
@@ -90,6 +99,7 @@ body.ixthys-site .cta {
 body.ixthys-site .highlights {
     background: #EEF2F7;
 }
+
 
 /* =====================================
    ALETHEON LLC THEME
@@ -128,4 +138,23 @@ body.aletheon-site footer {
     background: #000000;
     color: #FFFFFF;
     border-top: 2px solid #D4AF37;
+}
+.header-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#site-logo {
+    height: 100px;
+    width: auto;
+}
+
+.header-text h1 {
+    margin: 0;
+}
+
+.header-text p {
+    margin-top: 5px;
+    margin-bottom: 0;
 }

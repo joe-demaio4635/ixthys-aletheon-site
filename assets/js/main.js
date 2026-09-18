@@ -5,6 +5,10 @@ const domain = window.location.hostname.toLowerCase();
 const isIxthys = domain.includes("ixthysanalytics.com");
 const isAletheon = domain.includes("aletheon.llc");
 
+const logo = document.getElementById("site-logo");
+const title = document.getElementById("site-title");
+const tagline = document.getElementById("site-tagline");
+
 // Apply site‑specific behavior
 if (isIxthys) {
     console.log("Portfolio site detected: Ixthys Analytics");
