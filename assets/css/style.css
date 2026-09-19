@@ -14,6 +14,7 @@ header {
 
 header h1 {
     margin: 0;
+       margin: 0;
     text-align: center;
 }
 
@@ -101,6 +102,32 @@ body.ixthys-site .highlights {
     background: #EEF2F7;
 }
 
+.header-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#site-logo {
+    height: 100px;
+    width: auto;
+}
+
+.header-text h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.header-text p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#site-logo {
+    height: 70px;
+    width: auto;
+}
+
 
 /* =====================================
    ALETHEON LLC THEME
@@ -162,7 +189,7 @@ body.aletheon-site footer {
 }
 
 #site-logo {
-    height: 100px;
+    height: 70px;
     width: auto;
 }
 
