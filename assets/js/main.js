@@ -35,7 +35,17 @@ else if (isAletheon) {
 else {
     console.warn("Unknown domain loaded:", domain);
 }
+if (isIxthys) {
 
+    document.getElementById("business-only")?.classList.add("hidden");
+
+}
+
+else if (isAletheon) {
+
+    document.getElementById("portfolio-only")?.classList.add("hidden");
+
+}
 
 (function (factory) {
     if (typeof module === "object" && typeof module.exports === "object") {
