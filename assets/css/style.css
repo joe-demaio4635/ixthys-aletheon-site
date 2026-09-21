@@ -128,6 +128,11 @@ body.ixthys-site .highlights {
     width: auto;
 }
 
+.ixthys-home-logo {
+    height: 200px;
+    width: auto;
+    align-self: center;
+
 
 /* =====================================
    ALETHEON LLC THEME
@@ -191,5 +196,11 @@ body.aletheon-site footer {
 #site-logo {
     height: 70px;
     width: auto;
+}
+
+.aletheon-home-logo {
+    height: 200px;
+    width: auto;
+    align-self: center;
 }
 
