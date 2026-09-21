@@ -18,11 +18,11 @@ header h1 {
     text-align: center;
 }
 
-nav a {
-    color: #fff;
-    margin-right: 15px;
-    text-decoration: none;
+h4.header-brand {
+text-align: center;
 }
+   
+   
 
 .hero {
     padding: 40px;
@@ -131,7 +131,7 @@ body.ixthys-site .highlights {
 .ixthys-home-logo {
     height: 200px;
     width: auto;
-    align-self: center;
+  text-align: center;
 }
 
 /* =====================================
@@ -201,6 +201,6 @@ body.aletheon-site footer {
 .aletheon-home-logo {
     height: 200px;
     width: auto;
-    align-self: center;
+    text-align: center;
 }
 
