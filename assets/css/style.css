@@ -104,9 +104,11 @@ body.ixthys-site .highlights {
 
 .header-brand {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
+
 
 #site-logo {
     height: 100px;
